@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/countryNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:padding="5dp"
+        android:text="@string/country"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/minTempTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/countryNameTextView"
+        android:layout_marginTop="24dp"
+        android:padding="5dp"
+        android:text="@string/min"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/maxTempTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/minTempTextView"
+        android:layout_marginTop="27dp"
+        android:padding="5dp"
+        android:text="@string/max"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/statusTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/maxTempTextView"
+        android:layout_marginTop="26dp"
+        android:padding="5dp"
+        android:text="@string/status"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/statusTextView"
+        android:layout_marginTop="24dp"
+        android:padding="5dp"
+        android:text="@string/description"
+        android:textSize="18sp"/>
+</RelativeLayout>
